@@ -6,3 +6,18 @@ img {
     width: 100%;
     height:auto;
 }
+
+main {
+    display: grid;  
+    grid-template-columns: 50% 50%;  
+  }
+  #bio-note {
+    grid-column: 2; 
+    grid-row: 1;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  #profile-image{
+    grid-column: 1; 
+    grid-row: 1;
+  }
